@@ -1,0 +1,55 @@
+/*body*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .accueil {
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+
+  body {
+    background-image: url(../Images/texture-1155341_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+  }
+
+  h1 {
+    color: #FFFFFF;
+    padding: 20px 0;
+    font-size: 3rem;
+  }
+
+  input {
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  button {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+
+  ul {
+    /* border: 2px solid red; */
+    height: 35vh;
+    width: 100%;
+  }
+
+  li {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 5px;
+  }
